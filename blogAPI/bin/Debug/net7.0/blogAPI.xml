@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>blogAPI</name>
+    </assembly>
+    <members>
+        <member name="T:blogAPI.Data.Entities.Address.AsAddrObj">
+            <summary>
+            Сведения классификатора адресообразующих элементов
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Id">
+            <summary>
+            Уникальный идентификатор записи. Ключевое поле
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Objectid">
+            <summary>
+            Глобальный уникальный идентификатор адресного объекта типа INTEGER
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Objectguid">
+            <summary>
+            Глобальный уникальный идентификатор адресного объекта типа UUID
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Changeid">
+            <summary>
+            ID изменившей транзакции
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Name">
+            <summary>
+            Наименование
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Typename">
+            <summary>
+            Краткое наименование типа объекта
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Level">
+            <summary>
+            Уровень адресного объекта
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Opertypeid">
+            <summary>
+            Статус действия над записью – причина появления записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Previd">
+            <summary>
+            Идентификатор записи связывания с предыдущей исторической записью
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Nextid">
+            <summary>
+            Идентификатор записи связывания с последующей исторической записью
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Updatedate">
+            <summary>
+            Дата внесения (обновления) записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Startdate">
+            <summary>
+            Начало действия записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Enddate">
+            <summary>
+            Окончание действия записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Isactual">
+            <summary>
+            Статус актуальности адресного объекта ФИАС
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAddrObj.Isactive">
+            <summary>
+            Признак действующего адресного объекта
+            </summary>
+        </member>
+        <member name="T:blogAPI.Data.Entities.Address.AsAdmHierarchy">
+            <summary>
+            Сведения по иерархии в административном делении
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Id">
+            <summary>
+            Уникальный идентификатор записи. Ключевое поле
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Objectid">
+            <summary>
+            Глобальный уникальный идентификатор объекта
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Parentobjid">
+            <summary>
+            Идентификатор родительского объекта
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Changeid">
+            <summary>
+            ID изменившей транзакции
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Regioncode">
+            <summary>
+            Код региона
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Areacode">
+            <summary>
+            Код района
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Citycode">
+            <summary>
+            Код города
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Placecode">
+            <summary>
+            Код населенного пункта
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Plancode">
+            <summary>
+            Код ЭПС
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Streetcode">
+            <summary>
+            Код улицы
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Previd">
+            <summary>
+            Идентификатор записи связывания с предыдущей исторической записью
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Nextid">
+            <summary>
+            Идентификатор записи связывания с последующей исторической записью
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Updatedate">
+            <summary>
+            Дата внесения (обновления) записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Startdate">
+            <summary>
+            Начало действия записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Enddate">
+            <summary>
+            Окончание действия записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Isactive">
+            <summary>
+            Признак действующего адресного объекта
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsAdmHierarchy.Path">
+            <summary>
+            Материализованный путь к объекту (полная иерархия)
+            </summary>
+        </member>
+        <member name="T:blogAPI.Data.Entities.Address.AsHouse">
+            <summary>
+            Сведения по номерам домов улиц городов и населенных пунктов
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Id">
+            <summary>
+            Уникальный идентификатор записи. Ключевое поле
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Objectid">
+            <summary>
+            Глобальный уникальный идентификатор объекта типа INTEGER
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Objectguid">
+            <summary>
+            Глобальный уникальный идентификатор адресного объекта типа UUID
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Changeid">
+            <summary>
+            ID изменившей транзакции
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Housenum">
+            <summary>
+            Основной номер дома
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Addnum1">
+            <summary>
+            Дополнительный номер дома 1
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Addnum2">
+            <summary>
+            Дополнительный номер дома 1
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Housetype">
+            <summary>
+            Основной тип дома
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Addtype1">
+            <summary>
+            Дополнительный тип дома 1
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Addtype2">
+            <summary>
+            Дополнительный тип дома 2
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Opertypeid">
+            <summary>
+            Статус действия над записью – причина появления записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Previd">
+            <summary>
+            Идентификатор записи связывания с предыдущей исторической записью
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Nextid">
+            <summary>
+            Идентификатор записи связывания с последующей исторической записью
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Updatedate">
+            <summary>
+            Дата внесения (обновления) записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Startdate">
+            <summary>
+            Начало действия записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Enddate">
+            <summary>
+            Окончание действия записи
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Isactual">
+            <summary>
+            Статус актуальности адресного объекта ФИАС
+            </summary>
+        </member>
+        <member name="P:blogAPI.Data.Entities.Address.AsHouse.Isactive">
+            <summary>
+            Признак действующего адресного объекта
+            </summary>
+        </member>
+        <member name="T:blogAPI.Migrations.communityPost">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.communityPost.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.communityPost.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.communityPost.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:blogAPI.Migrations.fix">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.fix.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.fix.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.fix.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:blogAPI.Migrations.usersCommunities">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.usersCommunities.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.usersCommunities.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.usersCommunities.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:blogAPI.Migrations.usersCommunitiesRoles">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.usersCommunitiesRoles.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.usersCommunitiesRoles.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.usersCommunitiesRoles.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:blogAPI.Migrations.servicesv1">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.servicesv1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.servicesv1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:blogAPI.Migrations.servicesv1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:App.Controllers.UserController.Register(blogAPI.Dto.UserRegistrationDto)">
+            <response code="201">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:App.Controllers.UserController.Login(blogAPI.Dto.UserLoginDto)">
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:App.Controllers.UserController.Logout">
+            <response code="200">Success</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:App.Controllers.UserController.GetProfile">
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:App.Controllers.UserController.EditProfile(blogAPI.Dto.EditProfileDto)">
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="401">Unauthorized</response>
+        </member>
+    </members>
+</doc>
